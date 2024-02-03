@@ -8,6 +8,7 @@ The images from both datasets were preprocessed to remove any invalid file forma
 
 Used the Mediapipe Pose Detection Model to extract key points and landmarks from images. Specifically, used the mppose library from Mediapipe to detect the poses in the images. This was done by processing the images and detecting the landmarks in each pose. Then drew the landmarks on a white background using the mpDraw library, and extracted the coordinates and visibility of each landmark. This information was then stored in a dataset in the form of a CSV file for further analysis.
 Using the Mediapipe library provided us with an efficient and accurate way to detect and extract the pose information from images, which was essential for the study of classifying different human poses. Overall, the data collection and preprocessing process helped us to create a comprehensive and balanced dataset, which was used for our human pose detection study.
+
 ![Imbalance](https://github.com/AnushaReddy14/Human_Pose_Detection/assets/128181850/89928be3-d475-4802-afc2-a5c419ffef3b)
 ![Balanced](https://github.com/AnushaReddy14/Human_Pose_Detection/assets/128181850/189a54e6-c0e9-4495-8dec-126b4a53bc70)
 
